@@ -7,7 +7,6 @@
 html{
     font-size: 42.5%;
     font-family: 'Public Sans', sans-serif;
-
 }
 :root{
     --footer: hsl(233, 26%, 24%);
@@ -25,6 +24,10 @@ html{
     height: 70px;
     display: flex;
     justify-content: space-between;
+}
+
+.nav-button{
+    display: none;
 }
 
 .logo{
@@ -344,16 +347,45 @@ html{
     left: 10%;
     z-index: 1;
     position: absolute;
-    border-radius: 5px 5px 5px 5px;
-   
+    border-radius: 5px 5px 5px 5px;   
 }
 
 .hidden{
-    visibility: hidden;
+    visibility: hidden; 
+    animation: menuOut 0.5s ease-in-out 0.5s forwards;
+}
+
+@keyframes menuOut {
+    0%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
 }
 
 .visible{
     visibility: visible;
+    animation: menuIn 0.3s ease-in-out forwards;
+}
+
+@keyframes menuIn {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
 
 .display ul{
