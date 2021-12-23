@@ -78,12 +78,14 @@ html{
     right: 0;
     top: 0;
 }
-
+.phone-image .patrondesk{
+    display: none;
+}
 .phone-image .phones{
     position: absolute;
     left: 0;
     right: 0;
-    margin: auto; 
+    margin: auto;
     top: -126px;
     width: 364px;
     height: 445px;
