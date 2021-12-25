@@ -141,6 +141,7 @@ html{
     width: 100vw;
     height: 205vh;
     background-color: var(--grisfondo);
+    
 }
 
 .info-container-2{
@@ -199,6 +200,14 @@ html{
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 30px;
+}
+
+.benefits-container .benefit{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
