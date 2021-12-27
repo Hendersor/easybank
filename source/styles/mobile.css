@@ -202,7 +202,7 @@ html{
     margin-bottom: 30px;
 }
 
-.benefits-container .benefit{
+.benefits-container {
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -221,6 +221,13 @@ html{
     padding-top: 100px;
 }
 
+.articles-container{
+    display: none;
+}
+
+.title-article{
+    display: none;
+}
 
 .article-container{
     width: 90%;
