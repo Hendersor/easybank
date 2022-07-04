@@ -1,8 +1,8 @@
 .nav-bar {
   height: 95px;
   align-items: center;
-  width: 99%;
-  justify-content: space-evenly;
+  width: 90vw;
+  justify-content: space-between;
 }
 
 .main-container .info-container-1 .nav-button,
@@ -10,7 +10,6 @@
   display: flex;
   height: 50px;
   width: 165px;
-  margin-right: 100px;
   border-radius: 25px;
   justify-content: center;
   align-items: center;
@@ -23,7 +22,8 @@
 }
 
 .logo {
-  margin-left: 25px;
+  margin-left:0;
+  width: 20%;
 }
 
 .icon-menu {
@@ -224,7 +224,7 @@ p {
 }
 
 .footer {
-  height: 40vh;
+  height: 43vh;
   flex-direction: row;
   justify-content: space-around;
 }
