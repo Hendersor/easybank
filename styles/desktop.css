@@ -192,10 +192,12 @@ p {
 .article-content {
   height: 100vh;
   padding-top: 0px;
+  justify-content: space-evenly;
 }
 
 .title-article {
   display: flex;
+  margin: 0;
 }
 
 .title-article h1 {
@@ -203,24 +205,26 @@ p {
   text-align: left;
   width: 90%;
   padding: 0 0 0 0;
-  margin-left: 15px;
+  margin: 0;
 }
 
 .articles-container {
   display: flex;
-  height: 500px;
+  height: 58%;
+  width: 230px;
   width: 90%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .articles-container .article-container {
   width: 240px;
-  height: 320px;
+  height: 350px;
+  margin: 0;
 }
 
 .main-content {
-  height: 281vh;
+  height: 290vh;
 }
 
 .footer {
